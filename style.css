@@ -220,3 +220,33 @@ header {
   background: white;
   color: #6c3cf0;
 }
+
+/* Hackathon */
+
+.hackathon {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  background: white;
+}
+
+.hackathon-text {
+  flex: 1;
+}
+
+.hackathon-text h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hackathon-text p {
+  margin-bottom: 30px;
+}
+
+.hackathon-image {
+  flex: 1;
+}
+
+.hackathon-image img {
+  border-radius: 10px;
+}
